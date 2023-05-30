@@ -27,7 +27,7 @@ jobs:
           wget https://raw.githubusercontent.com/Ensign-College/CSS115_Tests/main/CS115_lab4a_cookie_test.py
           wget https://raw.githubusercontent.com/Ensign-College/CSS115_Tests//main/CS115_lab4a_candy_test.py
           wget https://raw.githubusercontent.com/Ensign-College/CSS115_Tests/main/CS115_lab4a_sundae_test.py
-          wget https://raw.githubusercontent.com/Ensign-College/CS115_Tests/main/CS115_lab4a_dessertitem_test.py
+          wget https://raw.githubusercontent.com/Ensign-College/CSS115_Tests/main/CS115_lab4a_dessertitem_test.py
           files=(*.py)
           output=""
           if [[ ${#files[@]} -gt 0 ]]; then
